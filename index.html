@@ -400,7 +400,7 @@
                             <div class='header-row'>
                                 <b>${fname}</b> <span style="color:#666; font-size:0.9em;">(${topic1})</span>
                             </div>
-                            <embed src='${pdfBaseUrl}/${fname}' type='application/pdf' />
+                            <embed src='${pdfBaseUrl}/pdfs/${fname}' type='application/pdf' />
                         </div>
                     `;
                 });
@@ -435,7 +435,7 @@
                         mergeBtn.textContent = `Merging ${i + 1}/${rows.length}...`;
 
                         // Fetch the individual PDF from /pdfs/ sub-folder
-                        const fileUrl = `${pdfBaseUrl}/${fname}`;
+                        const fileUrl = `${pdfBaseUrl}/pdfs/${fname}`;
                         const res = await fetch(fileUrl);
                         if (!res.ok) { console.error(`Failed to fetch ${fname}`); continue; }
                         const existingPdfBytes = await res.arrayBuffer();
@@ -498,7 +498,7 @@
                         zipBtn.textContent = `Fetching ${i + 1}/${rows.length}...`;
 
                         // Fetch the individual PDF from /pdfs/ sub-folder
-                        const fileUrl = `${pdfBaseUrl}/${fname}`;
+                        const fileUrl = `${pdfBaseUrl}/pdfs/${fname}`;
                         const res = await fetch(fileUrl);
                         
                         if (res.ok) {
