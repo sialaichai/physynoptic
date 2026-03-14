@@ -30,5 +30,10 @@
 {"filename": "gemini_submarine.pdf", "Topic1": "2 Forces and Moments", "Topic2": "20 Nuclear Physics", "Topic3": "10 Wave Motion", "Topic4": "4 Energy and Fields"},
 {"filename": "gemini_washing_machine.pdf", "Topic1": "9 Oscillations", "Topic2": "7 Circular Motion", "Topic3": "4 Energy and Fields", "Topic4": ""},
 {"filename": "gemini_washing_machine_1.pdf", "Topic1": "7 Circular Motion", "Topic2": "13 Thermodynamic Systems", "Topic3": "4 Energy and Fields", "Topic4": ""},
-{"filename": "gemini_wind_turbine_power.pdf", "Topic1": "4 Energy and Fields", "Topic2": "7 Circular Motion", "Topic3": "", "Topic4": ""}
+{"filename": "gemini_wind_turbine_power.pdf", "Topic1": "4 Energy and Fields", "Topic2": "7 Circular Motion", "Topic3": "", "Topic4": ""},
+{"filename": "prism_bicycle_velodrome.pdf", "Topic1": "7 Circular Motion", "Topic2": "3 Motion and Forces", "Topic3": "4 Energy and Fields", "Topic4": "1 Quantities and Measurement"},
+{"filename": "prism_concentrated_solar_power.pdf", "Topic1": "13 Thermodynamic Systems", "Topic2": "4 Energy and Fields", "Topic3": "1 Quantities and Measurement", "Topic4": ""},
+{"filename": "prism_motorcycle_wall_of_death.pdf", "Topic1": "7 Circular Motion", "Topic2": "3 Motion and Forces", "Topic3": "2 Forces and Moments", "Topic4": "4 Energy and Fields"},
+{"filename": "prism_suspension_bridge.pdf", "Topic1": "9 Oscillations", "Topic2": "2 Forces and Moments", "Topic3": "4 Energy and Fields", "Topic4": "1 Quantities and Measurement"},
+{"filename": "prism_wireless_charging.pdf", "Topic1": "18 Electromagnetic Induction", "Topic2": "15 Currents", "Topic3": "16 Circuits", "Topic4": "9 Oscillations"}
 ]
