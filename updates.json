@@ -35,5 +35,9 @@
 {"filename": "prism_concentrated_solar_power.pdf", "Topic1": "13 Thermodynamic Systems", "Topic2": "4 Energy and Fields", "Topic3": "1 Quantities and Measurement", "Topic4": ""},
 {"filename": "prism_motorcycle_wall_of_death.pdf", "Topic1": "7 Circular Motion", "Topic2": "3 Motion and Forces", "Topic3": "2 Forces and Moments", "Topic4": "4 Energy and Fields"},
 {"filename": "prism_suspension_bridge.pdf", "Topic1": "9 Oscillations", "Topic2": "2 Forces and Moments", "Topic3": "4 Energy and Fields", "Topic4": "1 Quantities and Measurement"},
-{"filename": "prism_wireless_charging.pdf", "Topic1": "18 Electromagnetic Induction", "Topic2": "15 Currents", "Topic3": "16 Circuits", "Topic4": "9 Oscillations"}
+{"filename": "prism_wireless_charging.pdf", "Topic1": "18 Electromagnetic Induction", "Topic2": "15 Currents", "Topic3": "16 Circuits", "Topic4": "9 Oscillations"},
+{"filename": "prism_aircraft_dynamics.pdf", "Topic1": "3 Motion and Forces", "Topic2": "4 Energy and Fields", "Topic3": "7 Circular Motion", "Topic4": "5 Projectile Motion"}, 
+{"filename": "prism_guitar.pdf", "Topic1": "11 Superposition", "Topic2": "18 Electromagnetic Induction", "Topic3": "16 Circuits", "Topic4": "9 Oscillations"}, 
+{"filename": "prism_hydroelectric.pdf", "Topic1": "4 Energy and Fields", "Topic2": "18 Electromagnetic Induction", "Topic3": "15 Currents", "Topic4": "16 Circuits"}, 
+{"filename": "prism_sail_boat.pdf", "Topic1": "2 Forces and Moments", "Topic2": "3 Motion and Forces", "Topic3": "4 Energy and Fields", "Topic4": "1 Quantities and Measurement"}   
 ]
