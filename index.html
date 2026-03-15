@@ -606,45 +606,7 @@
                 // 1. Click row to load PDF into main viewer. FIXED: Removed the extra hardcoded /pdfs/ to prevent duplication
                 tr.addEventListener('click', () => pdfViewer.src = `${PDF_FOLDER}/${r.filename}`);
 
-                // 2. Hover logic for the preview pop-up
-                const filenameCell = tr.querySelector('.filename-cell');
-                
-                filenameCell.addEventListener('mouseenter', (e) => {
-                    // Set a delay of 800ms before showing the PDF
-                    hoverTimer = setTimeout(() => {
-                        // #toolbar=0 hides the print/download buttons in the small preview
-                        previewIframe.src = `${PDF_FOLDER}/${r.filename}#toolbar=0&navpanes=0&scrollbar=0`;
-                        
-                        // Position the popup slightly to the right of the mouse
-                        const mouseX = e.clientX;
-                        const mouseY = e.clientY;
-                        
-                        // Keep it from going off the bottom of the screen
-                        let topPos = mouseY - 100;
-                        if (topPos + 550 > window.innerHeight) {
-                            topPos = window.innerHeight - 570; 
-                        }
-                        
-                        previewPopup.style.left = (mouseX + 30) + 'px';
-                        previewPopup.style.top = topPos + 'px';
-                        previewPopup.style.display = 'block';
-                    }, 800); 
-                });
 
-                filenameCell.addEventListener('mousemove', (e) => {
-                    // Optional: Make the popup follow the mouse slightly if it's already visible
-                    if (previewPopup.style.display === 'block') {
-                        previewPopup.style.left = (e.clientX + 30) + 'px';
-                    }
-                });
-
-                filenameCell.addEventListener('mouseleave', () => {
-                    // Cancel the timer if the mouse leaves before 800ms
-                    clearTimeout(hoverTimer);
-                    // Hide the popup and clear the iframe so it stops downloading
-                    previewPopup.style.display = 'none';
-                    previewIframe.src = ''; 
-                });
                 
     
                 
