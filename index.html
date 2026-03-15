@@ -101,6 +101,26 @@
         #data-table th:nth-child(3), #data-table td:nth-child(3) { width: 20%; } /* Topic 2 */
         #data-table th:nth-child(4), #data-table td:nth-child(4) { width: 20%; } /* Topic 3 */
         #data-table th:nth-child(5), #data-table td:nth-child(5) { width: 20%; } /* Topic 4 */
+
+        /* PDF HOVER PREVIEW POP-UP */
+        #pdf-preview-popup {
+            position: fixed;
+            display: none;
+            width: 450px;
+            height: 550px;
+            border: 2px solid #007bff;
+            border-radius: 8px;
+            background: white;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+            z-index: 10001;
+            pointer-events: none; /* Prevents the pop-up from interfering with mouse movement */
+            overflow: hidden;
+        }
+        #pdf-preview-popup iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
     </style>
 </head>
 <body>
@@ -117,6 +137,10 @@
         </div>
     </div>
 
+    <div id="pdf-preview-popup">
+        <iframe id="preview-iframe" src=""></iframe>
+    </div>
+    
     <div id="main-container">
         <div id="upper-panel">
             <div id="controls">
@@ -578,8 +602,52 @@
                     <td>${r.Topic3}</td>
                     <td>${r.Topic4}</td>
                 `;
-                // FIXED: Removed the extra hardcoded /pdfs/ to prevent duplication
+               
+                // 1. Click row to load PDF into main viewer. FIXED: Removed the extra hardcoded /pdfs/ to prevent duplication
                 tr.addEventListener('click', () => pdfViewer.src = `${PDF_FOLDER}/${r.filename}`);
+
+                // 2. Hover logic for the preview pop-up
+                const filenameCell = tr.querySelector('.filename-cell');
+                
+                filenameCell.addEventListener('mouseenter', (e) => {
+                    // Set a delay of 800ms before showing the PDF
+                    hoverTimer = setTimeout(() => {
+                        // #toolbar=0 hides the print/download buttons in the small preview
+                        previewIframe.src = `${PDF_FOLDER}/${r.filename}#toolbar=0&navpanes=0&scrollbar=0`;
+                        
+                        // Position the popup slightly to the right of the mouse
+                        const mouseX = e.clientX;
+                        const mouseY = e.clientY;
+                        
+                        // Keep it from going off the bottom of the screen
+                        let topPos = mouseY - 100;
+                        if (topPos + 550 > window.innerHeight) {
+                            topPos = window.innerHeight - 570; 
+                        }
+                        
+                        previewPopup.style.left = (mouseX + 30) + 'px';
+                        previewPopup.style.top = topPos + 'px';
+                        previewPopup.style.display = 'block';
+                    }, 800); 
+                });
+
+                filenameCell.addEventListener('mousemove', (e) => {
+                    // Optional: Make the popup follow the mouse slightly if it's already visible
+                    if (previewPopup.style.display === 'block') {
+                        previewPopup.style.left = (e.clientX + 30) + 'px';
+                    }
+                });
+
+                filenameCell.addEventListener('mouseleave', () => {
+                    // Cancel the timer if the mouse leaves before 800ms
+                    clearTimeout(hoverTimer);
+                    // Hide the popup and clear the iframe so it stops downloading
+                    previewPopup.style.display = 'none';
+                    previewIframe.src = ''; 
+                });
+                
+    
+                
                 fragment.appendChild(tr);
             });
             tableBody.appendChild(fragment);
