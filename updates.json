@@ -2,5 +2,8 @@
 {"filename": "prism_hovercraft.pdf", "Topic1": "3 Motion and Forces", "Topic2": "4 Energy and Fields", "Topic3": "2 Forces and Moments", "Topic4": "7 Circular Motion", "Topic5": "1 Quantities and Measurement"},
 {"filename": "prism_LINAC.pdf", "Topic1": "14 Electric Fields", "Topic2": "4 Energy and Fields", "Topic3": "17 Electromagnetic Forces", "Topic4": "20 Nuclear Physics", "Topic5": "3 Motion and Forces"},
 {"filename": "prism_electric_train.pdf", "Topic1": "4 Energy and Fields", "Topic2": "3 Motion and Forces", "Topic3": "14 Electric Fields", "Topic4": "18 Electromagnetic Induction", "Topic5": "15 Currents"},
-{"filename": "prism_photomultiplier.pdf", "Topic1": "19 Quantum Physics", "Topic2": "14 Electric Fields", "Topic3": "10 Wave Motion", "Topic4": "1 Quantities and Measurement", "Topic5": "15 Currents"}
+{"filename": "prism_photomultiplier.pdf", "Topic1": "19 Quantum Physics", "Topic2": "14 Electric Fields", "Topic3": "10 Wave Motion", "Topic4": "1 Quantities and Measurement", "Topic5": "15 Currents"},
+{"filename": "prism_lift.pdf", "Topic1": "3 Motion and Forces", "Topic2": "4 Energy and Fields", "Topic3": "2 Forces and Moments", "Topic4": "18 Electromagnetic Induction", "Topic5": "16 Circuits"},
+{"filename": "prism_pacemaker.pdf", "Topic1": "16 Circuits", "Topic2": "15 Currents", "Topic3": "14 Electric Fields", "Topic4": "4 Energy and Fields", "Topic5": "1 Quantities and Measurement"},
+{"filename": "prism_refrigerator.pdf", "Topic1": "13 Thermodynamic Systems", "Topic2": "12 Temperature and Ideal Gases", "Topic3": "4 Energy and Fields", "Topic4": "15 Currents", "Topic5": "1 Quantities and Measurement"}
 ]
