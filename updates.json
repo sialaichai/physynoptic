@@ -10,7 +10,10 @@
 {"filename": "prism_paywave.pdf", "Topic1": "18 Electromagnetic Induction", "Topic2": "16 Circuits", "Topic3": "15 Currents", "Topic4": "4 Energy and Fields", "Topic5": "1 Quantities and Measurement"},
 {"filename": "prism_photo_copier.pdf", "Topic1": "14 Electric Fields", "Topic2": "16 Circuits", "Topic3": "13 Thermodynamic Systems", "Topic4": "19 Quantum Physics", "Topic5": "3 Motion and Forces"},
 {"filename": "prism_photomultiplier.pdf", "Topic1": "19 Quantum Physics", "Topic2": "14 Electric Fields", "Topic3": "15 Currents", "Topic4": "20 Nuclear Physics", "Topic5": "3 Motion and Forces"},
-{"filename": "prism_pole_vault.pdf", "Topic1": "4 Energy and Fields", "Topic2": "3 Motion and Forces", "Topic3": "5 Projectile Motion", "Topic4": "6 Collisions", "Topic5": "2 Forces and Moments"}
-]
+{"filename": "prism_pole_vault.pdf", "Topic1": "4 Energy and Fields", "Topic2": "3 Motion and Forces", "Topic3": "5 Projectile Motion", "Topic4": "6 Collisions", "Topic5": "2 Forces and Moments"},
+{"filename": "prism_reuseable_rocket.pdf", "Topic1": "8 Gravitational Fields", "Topic2": "3 Motion and Forces", "Topic3": "7 Circular Motion", "Topic4": "4 Energy and Fields", "Topic5": "12 Temperature and Ideal Gases"},
+{"filename": "prism_robotic_arm.pdf", "Topic1": "3 Motion and Forces", "Topic2": "4 Energy and Fields", "Topic3": "15 Currents", "Topic4": "19 Quantum Physics", "Topic5": "9 Oscillations"}
+]  
+
 
 
