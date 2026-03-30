@@ -12,8 +12,33 @@
 {"filename": "prism_photomultiplier.pdf", "Topic1": "19 Quantum Physics", "Topic2": "14 Electric Fields", "Topic3": "15 Currents", "Topic4": "20 Nuclear Physics", "Topic5": "3 Motion and Forces"},
 {"filename": "prism_pole_vault.pdf", "Topic1": "4 Energy and Fields", "Topic2": "3 Motion and Forces", "Topic3": "5 Projectile Motion", "Topic4": "6 Collisions", "Topic5": "2 Forces and Moments"},
 {"filename": "prism_reuseable_rocket.pdf", "Topic1": "8 Gravitational Fields", "Topic2": "3 Motion and Forces", "Topic3": "7 Circular Motion", "Topic4": "4 Energy and Fields", "Topic5": "12 Temperature and Ideal Gases"},
-{"filename": "prism_robotic_arm.pdf", "Topic1": "3 Motion and Forces", "Topic2": "4 Energy and Fields", "Topic3": "15 Currents", "Topic4": "19 Quantum Physics", "Topic5": "9 Oscillations"}
-]  
+{"filename": "prism_robotic_arm.pdf", "Topic1": "3 Motion and Forces", "Topic2": "4 Energy and Fields", "Topic3": "15 Currents", "Topic4": "19 Quantum Physics", "Topic5": "9 Oscillations"},
+{"filename": "prism_EM_railgun.pdf", "Topic1": "17 Electromagnetic Forces", "Topic2": "18 Electromagnetic Induction", "Topic3": "3 Motion and Forces", "Topic4": "13 Thermodynamic Systems", "Topic5": "4 Energy and Fields"},
+{"filename": "prism_aircon.pdf", "Topic1": "13 Thermodynamic Systems", "Topic2": "15 Currents", "Topic3": "1 Quantities and Measurement", "Topic4": "", "Topic5": ""},
+{"filename": "prism_aircraft_dynamics.pdf", "Topic1": "3 Motion and Forces", "Topic2": "2 Forces and Moments", "Topic3": "4 Energy and Fields", "Topic4": "7 Circular Motion", "Topic5": ""},
+{"filename": "prism_bicycle_velodrome.pdf", "Topic1": "7 Circular Motion", "Topic2": "3 Motion and Forces", "Topic3": "4 Energy and Fields", "Topic4": "2 Forces and Moments", "Topic5": ""},
+{"filename": "prism_concentrated_solar_power.pdf", "Topic1": "13 Thermodynamic Systems", "Topic2": "4 Energy and Fields", "Topic3": "10 Wave Motion", "Topic4": "", "Topic5": ""},
+{"filename": "prism_cyclotron.pdf", "Topic1": "17 Electromagnetic Forces", "Topic2": "4 Energy and Fields", "Topic3": "19 Quantum Physics", "Topic4": "7 Circular Motion", "Topic5": ""},
+{"filename": "prism_guitar.pdf", "Topic1": "10 Wave Motion", "Topic2": "11 Superposition", "Topic3": "18 Electromagnetic Induction", "Topic4": "16 Circuits", "Topic5": "9 Oscillations"},
+{"filename": "prism_hydroelectric.pdf", "Topic1": "4 Energy and Fields", "Topic2": "18 Electromagnetic Induction", "Topic3": "15 Currents", "Topic4": "16 Circuits", "Topic5": ""},
+{"filename": "prism_hypersonic_missile.pdf", "Topic1": "4 Energy and Fields", "Topic2": "3 Motion and Forces", "Topic3": "13 Thermodynamic Systems", "Topic4": "1 Quantities and Measurement", "Topic5": ""},
+{"filename": "prism_induction_cooker.pdf", "Topic1": "18 Electromagnetic Induction", "Topic2": "13 Thermodynamic Systems", "Topic3": "15 Currents", "Topic4": "", "Topic5": ""},
+{"filename": "prism_library_security.pdf", "Topic1": "18 Electromagnetic Induction", "Topic2": "16 Circuits", "Topic3": "9 Oscillations", "Topic4": "", "Topic5": ""},
+{"filename": "prism_motorcycle_wall_of_death.pdf", "Topic1": "7 Circular Motion", "Topic2": "2 Forces and Moments", "Topic3": "3 Motion and Forces", "Topic4": "4 Energy and Fields", "Topic5": ""},
+{"filename": "prism_sail_boat.pdf", "Topic1": "2 Forces and Moments", "Topic2": "3 Motion and Forces", "Topic3": "4 Energy and Fields", "Topic4": "", "Topic5": ""},
+{"filename": "prism_suspension_bridge.pdf", "Topic1": "9 Oscillations", "Topic2": "3 Motion and Forces", "Topic3": "10 Wave Motion", "Topic4": "", "Topic5": ""},
+{"filename": "prism_wireless_charging.pdf", "Topic1": "18 Electromagnetic Induction", "Topic2": "16 Circuits", "Topic3": "15 Currents", "Topic4": "", "Topic5": ""},
+{"filename": "tony_Neptune.pdf", "Topic1": "8 Gravitational Fields", "Topic2": "7 Circular Motion", "Topic3": "4 Energy and Fields", "Topic4": "3 Motion and Forces", "Topic5": "1 Quantities and Measurement"},
+{"filename": "tony_RPG.pdf", "Topic1": "20 Nuclear Physics", "Topic2": "15 Currents", "Topic3": "16 Circuits", "Topic4": "4 Energy and Fields", "Topic5": "1 Quantities and Measurement"},
+{"filename": "tony_cyclotron.pdf", "Topic1": "17 Electromagnetic Forces", "Topic2": "7 Circular Motion", "Topic3": "4 Energy and Fields", "Topic4": "3 Motion and Forces", "Topic5": "15 Currents"},
+{"filename": "tony_electronic_compass.pdf", "Topic1": "18 Electromagnetic Induction", "Topic2": "17 Electromagnetic Forces", "Topic3": "15 Currents", "Topic4": "1 Quantities and Measurement", "Topic5": "16 Circuits"},
+{"filename": "tony_fission.pdf", "Topic1": "20 Nuclear Physics", "Topic2": "17 Electromagnetic Forces", "Topic3": "4 Energy and Fields", "Topic4": "7 Circular Motion", "Topic5": "12 Temperature and Ideal Gases"},
+{"filename": "tony_gravity_waves.pdf", "Topic1": "11 Superposition", "Topic2": "10 Wave Motion", "Topic3": "8 Gravitational Fields", "Topic4": "14 Electric Fields", "Topic5": "4 Energy and Fields"},
+{"filename": "tony_induction_motor.pdf", "Topic1": "18 Electromagnetic Induction", "Topic2": "15 Currents", "Topic3": "17 Electromagnetic Forces", "Topic4": "9 Oscillations", "Topic5": "1 Quantities and Measurement"},
+{"filename": "tony_ship_no_propeller.pdf", "Topic1": "17 Electromagnetic Forces", "Topic2": "15 Currents", "Topic3": "3 Motion and Forces", "Topic4": "16 Circuits", "Topic5": "4 Energy and Fields"},
+{"filename": "tony_tokamak.pdf", "Topic1": "18 Electromagnetic Induction", "Topic2": "15 Currents", "Topic3": "14 Electric Fields", "Topic4": "4 Energy and Fields", "Topic5": "20 Nuclear Physics"}
+]
+
 
 
 
